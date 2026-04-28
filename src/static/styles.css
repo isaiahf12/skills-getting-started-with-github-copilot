@@ -59,19 +59,69 @@ section h3 {
 
 .activity-card {
   margin-bottom: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  padding: 18px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .activity-card h4 {
   margin-bottom: 10px;
-  color: #0066cc;
+  color: #1a237e;
 }
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participants {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #ececec;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.participants ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.participants li {
+  margin-bottom: 8px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.participants span {
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
 }
 
 .form-group {
